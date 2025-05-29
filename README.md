@@ -14,5 +14,7 @@ Day-2 (26-05-2025): Python Operators — Arithmetic and Relational Operators.
 Day-3 (27-05-2025): Python Operators — Conditional, Logical, Bitwise, Assignment, Membership, and Identity Operators.
 <br></br>
 Day-4 (28-05-2025): Python Collection Data Structure — List.
+<br></br>
+Day-5 (29-05-2025): Data Structure on List.
 </body>
 </html>
