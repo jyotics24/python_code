@@ -15,6 +15,8 @@ Day-3 (27-05-2025): Python Operators — Conditional, Logical, Bitwise, Assignme
 <br></br>
 Day-4 (28-05-2025): Python Collection Data Structure — List.
 <br></br>
-Day-5 (29-05-2025): Data Structure on List.
+Day-5 (29-05-2025): Data Structure on List. Array/Stack
+<br></br>
+Day-5 (30-05-2025): Nested list and matrix multipication and tuple data structure.
 </body>
 </html>
