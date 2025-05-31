@@ -1,4 +1,4 @@
-# Bubble Sort with Dry Run
+# Bubble Sort with Dry Run Without use class and object
 numbers = []
 n = int(input("Enter how many numbers: "))
 
