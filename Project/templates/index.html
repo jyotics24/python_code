@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><b>HEART DISEASE PREDICTION</b></title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>HEART DISEASE PREDICTION</h2>
+    <form method="post" action="/predict">
+      {% for field in ['Gender', 'Age', 'Smoker', 'BP_Med', 'P_Stroke', 'Hypertension','Diabetes', 'Cholesterol', 'Systolic_Bp', 'BMI', 'Heart_rate', 'Glucose'] %}
+        <label for="{{ field }}">{{ field.replace('_', ' ').title() }}</label>
+        <input type="number" name="{{ field }}" required>
+      {% endfor %}
+      <button type="submit">Submit</button>
+      <button type="reset" style="background-color:#f44336;">Reset</button>
+    </form>
+    {% if prediction_text %}
+  <div class="message-box {{ 'danger' if 'may have' in prediction_text else 'safe' }}">
+    <h3>{{ prediction_text }}</h3>
+  </div>
+{% endif %}
+
+  </div>
+</body>
+</html>
