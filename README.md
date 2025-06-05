@@ -19,6 +19,6 @@ Day-5 (29-05-2025): Data Structure on List. Array/Stack
 <br></br>
 Day-5 (30-05-2025): Nested list and matrix multipication and tuple data structure.
 <br></br>
-Day-6 (04-06-2025): Add thr coronary heart disease prediction project.
+Day-6 (04-06-2025): Add coronary heart disease prediction project.
 </body>
 </html>
